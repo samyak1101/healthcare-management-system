@@ -1,0 +1,71 @@
+{
+  "patients": [
+    {
+      "patient_id": "P001",
+      "name": "iiiissns",
+      "age": 27,
+      "contact": "2300000000",
+      "history": " npone",
+      "date_added": "2025-12-19"
+    },
+    {
+      "patient_id": "P002",
+      "name": "rishit",
+      "age": 19,
+      "contact": "9999999999",
+      "history": "none",
+      "date_added": "2025-12-19"
+    }
+  ],
+  "appointments": [
+    {
+      "appointment_id": "APT001",
+      "patient_id": "P001",
+      "doctor": "Dr. Pratik Sharma",
+      "date": "2025-12-12",
+      "time": "23:00",
+      "status": "Confirmed"
+    },
+    {
+      "appointment_id": "APT002",
+      "patient_id": "P002",
+      "doctor": "Dr. Pratik Sharma",
+      "date": "2025-12-12",
+      "time": "23:00",
+      "status": "Confirmed"
+    }
+  ],
+  "bmi": [
+    {
+      "patient_id": "P002",
+      "weight": 80,
+      "height": 1.5,
+      "bmi": 35.56,
+      "category": "Obese",
+      "date": "2025-12-19"
+    }
+  ],
+  "symptoms": [
+    {
+      "patient_id": "P0001",
+      "symptoms": "cough",
+      "condition": "Cough",
+      "action": "Cough syrup and fluids",
+      "date": "2025-12-19"
+    },
+    {
+      "patient_id": "P002",
+      "symptoms": "chest pain",
+      "condition": "Chest Pain",
+      "action": "\u26a0\ufe0f See doctor immediately",
+      "date": "2025-12-19"
+    },
+    {
+      "patient_id": "P002",
+      "symptoms": "headache",
+      "condition": "Headache",
+      "action": "Rest and pain relief",
+      "date": "2025-12-19"
+    }
+  ]
+}
